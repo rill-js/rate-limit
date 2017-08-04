@@ -1,0 +1,39 @@
+{
+  "name": "@rill/rate-limit",
+  "description": "RIll middleware to rate-limit an API.",
+  "version": "0.1.0",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "browser": "client/index.js",
+  "bugs": "https://github.com/rill-js/rate-limit/issues",
+  "devDependencies": {
+    "rill": "^5.0.14",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2",
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/rill-js/rate-limit",
+  "keywords": [
+    "rate-limit",
+    "rate",
+    "limit",
+    "throttle",
+    "isomorphic",
+    "rill",
+    "universal"
+  ],
+  "license": "MIT",
+  "main": "server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rill-js/rate-limit"
+  },
+  "scripts": {
+    "test": "standard --verbose | snazzy && tape ./test/**/*.test.js | tap-spec"
+  },
+  "dependencies": {
+    "keyv": "^1.0.4",
+    "ms": "^2.0.0"
+  }
+}
