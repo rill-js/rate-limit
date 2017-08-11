@@ -8,7 +8,7 @@
   "devDependencies": {
     "rill": "^5.0.14",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.2",
+    "standard": "^10.0.3",
     "supertest": "^3.0.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.8.0"
@@ -33,7 +33,7 @@
     "test": "standard --verbose | snazzy && tape ./test/**/*.test.js | tap-spec"
   },
   "dependencies": {
-    "keyv": "^1.0.4",
+    "keyv": "^2.0.0",
     "ms": "^2.0.0"
   }
 }
